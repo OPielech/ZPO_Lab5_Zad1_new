@@ -41,7 +41,9 @@ public class TennisPlayer implements Comparable<TennisPlayer> {
         return points;
     }
 
-    public int getNumberOfTournaments() { return numberOfTournaments; }
+    public int getNumberOfTournaments() {
+        return numberOfTournaments;
+    }
 
     @Override
     public int compareTo(TennisPlayer tennisPlayer) {
@@ -51,12 +53,12 @@ public class TennisPlayer implements Comparable<TennisPlayer> {
     @Override
     public String toString() {
         return "Position: " + position
-                +", nationality: "+nationality
-                +", name: "+name
-                +", last name: "+lastName
-                +", age: "+ age
-                +", points: "+points
-                +", number of tournaments: "+numberOfTournaments
-                +"\n";
+                + ", nationality: " + nationality
+                + ", name: " + name
+                + ", last name: " + lastName
+                + ", age: " + age
+                + ", points: " + points
+                + ", number of tournaments: " + numberOfTournaments
+                + "\n";
     }
 }//end of class
